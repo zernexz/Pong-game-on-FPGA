@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+/home/cern/Xilinx/ISE/bin/lin/unwrapped/ngdbuild -ise /home/cern/top/top.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc2vp30-ff896-5 top.ngc top.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+top_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

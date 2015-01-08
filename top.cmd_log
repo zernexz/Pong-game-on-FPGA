@@ -1,0 +1,167 @@
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/cern/top/top.ise" -intstyle ise -ifn "/home/cern/top/top.xst" -ofn "/home/cern/top/top.syr"
+ngdbuild -ise "/home/cern/top/top.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-5 "top.ngc" top.ngd
+map -ise "/home/cern/top/top.ise" -intstyle ise -p xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "/home/cern/top/top.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/cern/top/top.ise" -intstyle ise -v 3 -s 5 -xml top top.ncd -o top.twr top.pcf -ucf led.ucf
+bitgen -ise "/home/cern/top/top.ise" -intstyle ise -f top.ut top.ncd

@@ -1,0 +1,162 @@
+Release 10.1 Map K.39 (lin)
+Xilinx Mapping Report File for Design 'top'
+
+Design Information
+------------------
+Command Line   : map -ise /home/cern/top/top.ise -intstyle ise -p
+xc2vp30-ff896-5 -cm area -pr off -k 4 -c 100 -tx off -o top_map.ncd top.ngd
+top.pcf 
+Target Device  : xc2vp30
+Target Package : ff896
+Target Speed   : -5
+Mapper Version : virtex2p -- $Revision: 1.46.12.2 $
+Mapped Date    : Tue Mar 11 13:41:45 2014
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    1
+Logic Utilization:
+  Number of Slice Flip Flops:           338 out of  27,392    1%
+  Number of 4 input LUTs:               999 out of  27,392    3%
+Logic Distribution:
+  Number of occupied Slices:            578 out of  13,696    4%
+    Number of Slices containing only related logic:     578 out of     578 100%
+    Number of Slices containing unrelated logic:          0 out of     578   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,072 out of  27,392    3%
+    Number used as logic:               999
+    Number used as a route-thru:         73
+  Number of bonded IOBs:                  7 out of     556    1%
+  Number of BUFGMUXs:                     1 out of      16    6%
+
+Peak Memory Usage:  214 MB
+Total REAL time to MAP completion:  8 secs 
+Total CPU time to MAP completion:   8 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+Section 13 - Control Set Information
+Section 14 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Pack:266 - The function generator brbuf<0>1 failed to merge with F5
+   multiplexer Mmux__COND_1_16_f5_7.  There is a conflict for the GYMUX.  The
+   design will exhibit suboptimal timing.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Strength | Rate |              |          | Delay    |
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+| LED_0                              | IOB              | OUTPUT    | LVCMOS25             | 12       | SLOW |              |          |          |
+| LED_1                              | IOB              | OUTPUT    | LVCMOS25             | 12       | SLOW |              |          |          |
+| LED_2                              | IOB              | OUTPUT    | LVCMOS25             | 12       | SLOW |              |          |          |
+| LED_3                              | IOB              | OUTPUT    | LVCMOS25             | 12       | SLOW |              |          |          |
+| clk                                | IOB              | INPUT     | LVCMOS25             |          |      |              |          |          |
+| rx                                 | IOB              | INPUT     | LVCMOS25             |          |      |              |          |          |
+| tx                                 | IOB              | OUTPUT    | LVCMOS25             | 12       | SLOW |              |          |          |
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 14 - Utilization by Hierarchy
+-------------------------------------
+
+This feature is not supported for this architecture.

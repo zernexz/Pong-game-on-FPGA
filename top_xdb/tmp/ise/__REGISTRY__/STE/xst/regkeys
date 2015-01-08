@@ -1,0 +1,6 @@
+CommandLine
+/home/cern/Xilinx/ISE/bin/lin/unwrapped/xst -ise /home/cern/top/top.ise -intstyle ise -ifn /home/cern/top/top.xst -ofn /home/cern/top/top.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

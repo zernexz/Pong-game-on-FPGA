@@ -1,0 +1,4 @@
+verilog work "sp.v"
+verilog work "bin2bcd.v"
+verilog work "async.v"
+verilog work "top.v"
