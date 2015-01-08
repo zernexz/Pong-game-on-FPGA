@@ -9,15 +9,15 @@ Feature:
   - 2 player
   - use Keyboard over RS232 as input [W,S , Up,Down] for control
 
-*You can use terminal or putty for communicate on RS232 ( No Disparity bit ) protocal.
-If you have a problem make sure that set buad rate correct , another might be clocking.
-
-License : MIT License.
-
 TODO: ( contribute welcome. )
   - Add Color
   - Cheat Key
   - Item
   - Other version
+
+License : MIT License.
+
+*You can use terminal or putty for communicate on RS232 ( No Disparity bit ) protocal.
+If you have a problem make sure that set buad rate correct , another might be clocking.
 
 Thanks to : fpga4fun.com for RS232 Transmitter/Receiver
