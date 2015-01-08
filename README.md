@@ -2,7 +2,7 @@
 
 This project develop on XUPV2P board.
 For another board can easily to port by copy only verilog (*.v) file into new project.
-
+ 
 Feature:
   - Start Menu
   - Score
