@@ -1,7 +1,7 @@
 # Verilog HDL Pong game on Xilinx FPGA over Serial RS232.
 
-this project develop on XUPV2P board.
-for another board can easily to port by copy only verilog (*.v) file.
+This project develop on XUPV2P board.
+For another board can easily to port by copy only verilog (*.v) file into new project.
 
 Feature:
   - Start Menu
